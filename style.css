@@ -1,0 +1,158 @@
+/* Existing CSS remains unchanged */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-color: #f7fbff; */
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 90vw; 
+  height: 100vh;
+}
+
+.profile-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+.profile-img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  overflow: hidden;
+}
+
+.profile-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.location {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.loc {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 4px;
+}
+.link-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.link-btn {
+  height: 50px;
+  width: 120px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 3px 8px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.box {
+  height: 60px;
+  width: 30vw;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 3px 8px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: whitesmoke;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-decoration: none; 
+}
+
+.box:hover {
+  transform: translateY(-8px);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 20px 0px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+    width: 35vw;
+  }
+  .link {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 651px) {
+  .box {
+    width: 35vw;
+  }
+  .link {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .links {
+    flex-direction: column;
+  }
+  .box {
+    width: 80vw;
+  }
+  .box.last {
+    margin-bottom: 20px; 
+  }
+  .container {
+    margin-top: 20px;
+    align-items: center;
+  }
+}
