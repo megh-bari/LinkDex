@@ -76,5 +76,9 @@ Modify the `style.css` file to change the look and feel of the profile section a
 
 Megh Bari - [@Spidey._.01](https://www.instagram.com/spidey._.01/)
 
-Project Link: [LinkDex](https://github.com/megh-bari/LinkDex)
+Project Link: [Repo](https://github.com/megh-bari/LinkDex)
+
+Visit: [LinkDex🚀](https://link-dex.vercel.app/)
+
+---
 
